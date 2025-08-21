@@ -7,7 +7,7 @@ export const useRequestCode = () => {
 
     try {
       const res = await fetch(
-        "https://rose-candle-co.onrender.com/api/recoveryPassword/requestCode",
+        "https://rose-candle-copruebavr-1.onrender.com/api/recoveryPassword/requestCode",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

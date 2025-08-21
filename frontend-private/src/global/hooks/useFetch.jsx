@@ -1,5 +1,5 @@
 const useFetch = () => {
-  const SERVER_URL = 'https://rose-candle-co.onrender.com/api/';
+  const SERVER_URL = 'https://rose-candle-copruebavr-1.onrender.com/api/';
 
   const useLogin = async (email, password) => {
 

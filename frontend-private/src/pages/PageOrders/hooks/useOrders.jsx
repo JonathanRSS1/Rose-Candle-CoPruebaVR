@@ -15,7 +15,7 @@ const useOrders = (methods) => {
   // Obtener productos desde el backend
   const getProductsForOrders = async () => {
     try {
-      const res = await fetch("https://rose-candle-co.onrender.com/api/products/productsOrders");
+      const res = await fetch("https://rose-candle-copruebavr-1.onrender.com/api/products/productsOrders");
       if (!res.ok) throw new Error("Error al obtener los productos");
       const data = await res.json();
       setProducts(data);

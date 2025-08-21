@@ -10,7 +10,7 @@ const useMaterials = (methods) => {
     formState: { errors },
   } = methods;
 
-  const API = "https://rose-candle-co.onrender.com/api"
+  const API = "https://rose-candle-copruebavr-1.onrender.com/api"
 
   const [materials, setMaterials] = useState([]);
   const [materialsBalance, setMaterialsBalance] = useState([]);

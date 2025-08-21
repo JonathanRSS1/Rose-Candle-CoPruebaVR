@@ -5,8 +5,8 @@ import toast from "react-hot-toast";
 
 const useRecord = () => {
 
-    const ApiProducts = "https://rose-candle-co.onrender.com/api/products";
-    const API = "https://rose-candle-co.onrender.com/api";
+    const ApiProducts = "https://rose-candle-copruebavr-1.onrender.com/api/products";
+    const API = "https://rose-candle-copruebavr-1.onrender.com/api";
 
     //https://rose-candle-co.onrender.com/api/materialBalance
 

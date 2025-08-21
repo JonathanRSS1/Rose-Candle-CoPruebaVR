@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 
 const useSales = () => {
 
-    const API = "https://rose-candle-co.onrender.com/api"
+    const API = "https://rose-candle-copruebavr-1.onrender.com/api"
 
     const [orders, setOrders] = useState([]);
     const [carts, setCarts] = useState([]);

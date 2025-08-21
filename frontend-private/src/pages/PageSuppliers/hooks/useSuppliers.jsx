@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 
-const ApiSuppliers = "https://rose-candle-co.onrender.com/api/suppliers";
+const ApiSuppliers = "https://rose-candle-copruebavr-1.onrender.com/api/suppliers";
 
 const useSuppliers = () => {
   const [suppliers, setSuppliers] = useState([]);

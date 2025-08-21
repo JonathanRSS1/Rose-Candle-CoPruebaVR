@@ -2,23 +2,23 @@ import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 
 // Clientes
-const ApiCustomers = "https://rose-candle-co.onrender.com/api/customers/count";
-const ApiCustomersByMonth = "https://rose-candle-co.onrender.com/api/customers/countByMonth";
+const ApiCustomers = "https://rose-candle-copruebavr-1.onrender.com/api/customers/count";
+const ApiCustomersByMonth = "https://rose-candle-copruebavr-1.onrender.com/api/customers/countByMonth";
 
 // Pedidos
-const ApiOrders = "https://rose-candle-co.onrender.com/api/salesOrder/countTotal";
+const ApiOrders = "https://rose-candle-copruebavr-1.onrender.com/api/salesOrder/countTotal";
 
 // Ingresos
-const ApiEarnings = "https://rose-candle-co.onrender.com/api/salesOrder/totalEarnings";
+const ApiEarnings = "https://rose-candle-copruebavr-1.onrender.com/api/salesOrder/totalEarnings";
 
 // Stock
-const ApiLowStock = "https://rose-candle-co.onrender.com/api/rawMaterials/lowStock";
+const ApiLowStock = "https://rose-candle-copruebavr-1.onrender.com/api/rawMaterials/lowStock";
 
 // Productos
-const ApiBestSellingProducts = "https://rose-candle-co.onrender.com/api/cart/bestSellingProducts";
+const ApiBestSellingProducts = "https://rose-candle-copruebavr-1.onrender.com/api/cart/bestSellingProducts";
 
 // Últimos pedidos
-const ApiLatestOrders = "https://rose-candle-co.onrender.com/api/salesOrder/latestOrders";
+const ApiLatestOrders = "https://rose-candle-copruebavr-1.onrender.com/api/salesOrder/latestOrders";
 
 const useHome = () => {
   // Clientes

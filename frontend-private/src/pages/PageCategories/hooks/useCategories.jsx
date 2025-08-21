@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 
-const ApiCategories = "https://rose-candle-co.onrender.com/api/productCategories";
+const ApiCategories = "https://rose-candle-copruebavr-1.onrender.com/api/productCategories";
 
 const useCategories = (methods) => {
   const {

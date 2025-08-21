@@ -12,7 +12,7 @@ const useProducts = (methods) => {
   } = methods;
 
   // Api de productos
-  const ApiProducts = "https://rose-candle-co.onrender.com/api/products";
+  const ApiProducts = "https://rose-candle-copruebavr-1.onrender.com/api/products";
 
   const [activeTab, setActiveTab] = useState("list");
   const [id, setId] = useState("");

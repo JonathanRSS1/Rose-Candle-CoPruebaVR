@@ -14,7 +14,7 @@ const useSupplies = (methods) => {
     const [materials, setMaterials] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    const API = "https://rose-candle-co.onrender.com/api";
+    const API = "https://rose-candle-copruebavr-1.onrender.com/api";
 
     const getMaterialsBalance = async () => {
         setLoading(true);

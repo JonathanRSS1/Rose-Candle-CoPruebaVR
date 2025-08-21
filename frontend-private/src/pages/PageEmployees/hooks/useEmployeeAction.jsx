@@ -1,7 +1,7 @@
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
-const ApiEmployees = "https://rose-candle-co.onrender.com/api/employees"; // API endpoint para empleados
+const ApiEmployees = "https://rose-candle-copruebavr-1.onrender.com/api/employees"; // API endpoint para empleados
 
 const useEmployeeAction = (getEmployees) => {
   const navigate = useNavigate();
