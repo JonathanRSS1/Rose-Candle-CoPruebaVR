@@ -213,7 +213,6 @@ customersController.addAddress = async (req, res) => {
       zipCode,
       phone,
       address,
-      type,
     });
 
     await customer.save();
