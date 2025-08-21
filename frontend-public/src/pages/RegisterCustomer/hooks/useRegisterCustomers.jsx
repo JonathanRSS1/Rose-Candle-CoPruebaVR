@@ -17,7 +17,7 @@ const useRegisterCustomer = () => {
     try {
       // Realiza una solicitud POST al backend con los datos del cliente
       const response = await fetch(
-        "https://rose-candle-co.onrender.com/api/registerCustomer",
+        "https://rose-candle-copruebavr-1.onrender.com/api/registerCustomer",
         {
           method: "POST",
           headers: {

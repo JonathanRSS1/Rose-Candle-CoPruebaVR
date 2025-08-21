@@ -18,7 +18,7 @@ const useCart = () => {
     const navigate = useNavigate();
 
 
-    const API = "https://rose-candle-co.onrender.com"
+    const API = "https://rose-candle-copruebavr-1.onrender.com"
     //https://rose-candle-co.onrender.com
 
     const fetchCart = async () => {

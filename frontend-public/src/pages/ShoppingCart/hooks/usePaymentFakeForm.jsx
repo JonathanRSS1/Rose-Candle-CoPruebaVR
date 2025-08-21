@@ -39,7 +39,7 @@ const usePaymentFakeForm = () => {
       alert("Generando token de acceso...");
 
       // 1. Obtener token desde el backend
-      const tokenResponse = await fetch("https://rose-candle-co.onrender.com/api/payments/token", {
+      const tokenResponse = await fetch("https://rose-candle-copruebavr-1.onrender.com/api/payments/token", {
         method: "POST",
         credentials: "include",
         headers: {
@@ -63,7 +63,7 @@ const usePaymentFakeForm = () => {
       };
 
       // 2. Enviar datos de pago al backend
-      const paymentResponse = await fetch("https://rose-candle-co.onrender.com/api/payments/testPayment", {
+      const paymentResponse = await fetch("https://rose-candle-copruebavr-1.onrender.com/api/payments/testPayment", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

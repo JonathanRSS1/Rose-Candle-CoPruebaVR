@@ -10,7 +10,7 @@ export const useNewPassword = () => {
     try {
       // Envía solicitud al backend con la nueva contraseña
       const res = await fetch(
-        "https://rose-candle-co.onrender.com/api/recoveryPassword/newPassword",
+        "https://rose-candle-copruebavr-1.onrender.com/api/recoveryPassword/newPassword",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

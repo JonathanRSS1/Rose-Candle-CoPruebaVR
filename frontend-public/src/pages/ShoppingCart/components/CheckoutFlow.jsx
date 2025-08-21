@@ -136,7 +136,7 @@ const CheckoutFlow = ({
 
       // 1️⃣ Obtener token de pago
       const tokenResponse = await fetch(
-        "https://rose-candle-co.onrender.com/api/payments/token",
+        "https://rose-candle-copruebavr-1.onrender.com/api/payments/token",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -161,7 +161,7 @@ const CheckoutFlow = ({
 
       // 3️⃣ Enviar pago simulado
       const paymentResponse = await fetch(
-        "https://rose-candle-co.onrender.com/api/payments/testPayment",
+        "https://rose-candle-copruebavr-1.onrender.com/api/payments/testPayment",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

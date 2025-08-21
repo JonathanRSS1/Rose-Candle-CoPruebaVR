@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const useFetchProduct = () => {
 
-  const ApiProducts = "https://rose-candle-co.onrender.com/api/products";
+  const ApiProducts = "https://rose-candle-copruebavr-1.onrender.com/api/products";
   //https://rose-candle-co.onrender.com
 
   const [products, setProducts] = useState([]);
