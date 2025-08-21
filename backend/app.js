@@ -17,8 +17,9 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "https://rose-candle-co-t1as.vercel.app",
+      "https://rose-candle-co-prueba-vr.vercel.app",
       "https://rose-candle-co-imt9.vercel.app",
+      
       "http://localhost:5173",
       "http://localhost:5174",
     ],
