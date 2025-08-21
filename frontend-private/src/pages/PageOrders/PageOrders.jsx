@@ -25,7 +25,6 @@ const PageOrders = () => {
     Fecha: "saleDate",
     Monto: "total",
     Método: "paymentMethod",
-    Método: "paymentMethod",
     Estado: "shippingState"
   };
 
