@@ -19,6 +19,9 @@ app.use(
     origin: [
       "https://rose-candle-co-prueba-vr.vercel.app",
       "https://rose-candle-co-imt9.vercel.app",
+
+
+      "https://rose-candle-co-prueba-vr-q14r.vercel.app",
       
       "http://localhost:5173",
       "http://localhost:5174",
